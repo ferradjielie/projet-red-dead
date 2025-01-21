@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Header from './components/Header'
 import CharacterCard from './components/CharacterCard'
 import data from './data';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 
 import './App.css'
