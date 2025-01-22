@@ -1,9 +1,14 @@
+
+
+
 import ArthurIcon from './assets/ArthurMorgan.jpg';
 import DutchIcon from './assets/Dutch.jpg';
 import JohnIcon from './assets/johnMarston.jpg';
 import CharlesIcon from './assets/Charles.jpg';
 import LennyIcon from './assets/Lenny.jpg';
 import MicahIcon from './assets/Micah.jpg';
+
+
 
 export default [
     {
