@@ -4,6 +4,8 @@ import CharacterCard from './components/CharacterCard';
 import LegendaryAnimals from './components/AnimalsLegendary';
 import data from './data';
 import dataAnimals from './data-legendary-animals';
+import Gangs from "./components/Gangs";
+import dataGangs from './data-gangs';
 
 import './App.css';
 
@@ -33,6 +35,18 @@ function App() {
     );
   });
 
+  const gangElements = dataGangs.map((entryGang) => {
+    return (
+      <Gangs
+        key={entryGang.id}
+        img={entryGang.img}
+        name={entryGang.name}
+        resume={entryGang.resume}
+        location={entryGang.location}
+      />
+    );
+  });
+
   return (
     <>
       <Header />
@@ -42,6 +56,8 @@ function App() {
         
         {/* Route pour la page des animaux légendaires */}
         <Route path="/legendary-animals" element={<div>{animalsElements}</div>} />
+
+        <Route path="/other-gangs" element={<div>{gangElements}</div>} />
       </Routes>
     </>
   );

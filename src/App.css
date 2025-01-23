@@ -8,7 +8,7 @@
 
 header {
     background-color: red;
-    height: 80px;
+    height: 150px;
 }
 h1 {
     text-align: center;
@@ -40,5 +40,32 @@ img:hover {
     border: solid white 1px;
     background-color: black;
     color: white;
-    padding: 15px;
+    gap: 10px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+.name {
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.active-link {
+   
+    display: flex;
+    justify-content: center;
+    color : blanchedalmond;
+    text-decoration: none;
+    margin-top: 15px;
+    font-weight: 700;
+        
+}
+
+.link {
+    
+    display: flex;
+    justify-content: center;
+    color : blanchedalmond;
+    text-decoration: none;
+    margin-top: 15px;
+    font-weight: 700;
 }

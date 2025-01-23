@@ -10,7 +10,7 @@
                 alt={props.img.alt} 
         
            />
-            <span> {props.name} </span>
+            <span className="name"> {props.name} </span>
             <p> {props.resume}</p>
        
         </article>

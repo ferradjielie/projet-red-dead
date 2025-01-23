@@ -8,7 +8,7 @@ function LegendaryAnimals(props) {
             alt={props.img.alt} 
         
         />
-       <span> {props.name} </span>
+       <span className="name"> {props.name} </span>
        <p> {props.resume}</p>
        <p>{props.location}</p>
        
