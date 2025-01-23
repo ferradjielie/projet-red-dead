@@ -25,6 +25,22 @@ function Header() {
       >
           Les autres bandes
       </NavLink>
+
+      <NavLink
+        to="/State-of-Red-dead-Redemption"
+        className={({ isActive }) => (isActive ? "active-link" : "link")}
+      >
+          Les états de Red Dead Redemption
+      </NavLink>
+
+      <NavLink
+        to="/City-of-Red-dead-Redemption"
+        className={({ isActive }) => (isActive ? "active-link" : "link")}
+      >
+          Les villes de Red Dead Redemption
+      </NavLink>
+
+      
     </header>
   );
 }

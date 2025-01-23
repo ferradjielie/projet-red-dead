@@ -2,12 +2,17 @@ import { Routes, Route } from "react-router-dom";
 import Header from './components/Header';
 import CharacterCard from './components/CharacterCard';
 import LegendaryAnimals from './components/AnimalsLegendary';
+import City from "./components/City";
+import State from "./components/State";
 import data from './data';
 import dataAnimals from './data-legendary-animals';
 import Gangs from "./components/Gangs";
 import dataGangs from './data-gangs';
+import dataCity from './city-data';
+import dataState from './states-data';
 
 import './App.css';
+
 
 function App() {
   // Liste des personnages
@@ -47,6 +52,30 @@ function App() {
     );
   });
 
+  const stateElements = dataState.map((entryState) => {
+    return (
+      <State
+        key={entryState.id}
+        img={entryState.img}
+        name={entryState.name}
+        resume={entryState.resume}
+      />
+    );
+  });
+
+
+  const cityElements = dataCity.map((entryCity) => {
+    return (
+      <City
+        key={entryCity.id}
+        img={entryCity.img}
+        name={entryCity.name}
+        resume={entryCity.resume}
+        location={entryCity.location}
+      />
+    );
+  });
+
   return (
     <>
       <Header />
@@ -58,6 +87,11 @@ function App() {
         <Route path="/legendary-animals" element={<div>{animalsElements}</div>} />
 
         <Route path="/other-gangs" element={<div>{gangElements}</div>} />
+
+        <Route path="/City-of-Red-dead-Redemption" element={<div>{cityElements}</div>} />
+
+        <Route path="/State-of-Red-dead-Redemption" element={<div>{stateElements}</div>} />
+      
       </Routes>
     </>
   );

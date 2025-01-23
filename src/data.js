@@ -144,7 +144,7 @@ export default [
         src: UncleIcon,
         alt: "Image of Uncle"
       },
-      name: "Uncle",
+      name: "l'Oncle ",
       resume: "Un vieux paresseux qui aime le whisky et évite le travail. Mais il est fidèle au gang et possède une sagesse inattendue."
     },
   

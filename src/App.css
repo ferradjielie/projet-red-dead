@@ -8,7 +8,7 @@
 
 header {
     background-color: red;
-    height: 150px;
+    height: 220px;
 }
 h1 {
     text-align: center;
@@ -21,7 +21,7 @@ h1 {
 
 
  img {
-    width: 200px;
+    width: 300px;
     border-radius: 5px;
     border: solid white 1px;
     margin-bottom: 10px;
