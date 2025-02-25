@@ -69,3 +69,18 @@ img:hover {
     margin-top: 15px;
     font-weight: 700;
 }
+
+hr {
+    width: 100%;
+}
+
+button {
+    padding: 8px;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+    cursor: pointer;
+}

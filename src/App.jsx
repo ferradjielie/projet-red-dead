@@ -4,6 +4,7 @@ import CharacterCard from './components/CharacterCard';
 import LegendaryAnimals from './components/AnimalsLegendary';
 import City from "./components/City";
 import State from "./components/State";
+
 import data from './data';
 import dataAnimals from './data-legendary-animals';
 import Gangs from "./components/Gangs";
@@ -23,6 +24,7 @@ function App() {
         img={entry.img}
         name={entry.name}
         resume={entry.resume}
+        quote={entry.quote}
       />
     );
   });
