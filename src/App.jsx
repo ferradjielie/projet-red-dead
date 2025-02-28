@@ -1,9 +1,10 @@
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from './components/Header';
 import CharacterCard from './components/CharacterCard';
 import LegendaryAnimals from './components/AnimalsLegendary';
 import City from "./components/City";
 import State from "./components/State";
+import CharacterDetails from "./components/CharacterDetails";
 
 import data from './data';
 import dataAnimals from './data-legendary-animals';
@@ -25,6 +26,7 @@ function App() {
         name={entry.name}
         resume={entry.resume}
         quote={entry.quote}
+        id={entry.id} 
       />
     );
   });
@@ -93,6 +95,8 @@ function App() {
         <Route path="/City-of-Red-dead-Redemption" element={<div>{cityElements}</div>} />
 
         <Route path="/State-of-Red-dead-Redemption" element={<div>{stateElements}</div>} />
+
+        <Route path="/character/:id" element={<CharacterDetails />} /> {/* Route dynamique */}
       
       </Routes>
     </>

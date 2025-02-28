@@ -16,7 +16,7 @@ function Header() {
         to="/"
         className={({ isActive }) => (isActive ? "active-link" : "link")}
       >
-        Bande de Dutch 
+       La bande de Dutch 
       </NavLink>
 
       <NavLink

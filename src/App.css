@@ -84,3 +84,10 @@ button {
     font-size: 1em;
     cursor: pointer;
 }
+.character-text {
+    max-width: 600px; /* Limite la largeur du paragraphe */
+    margin: 0 auto; /* Centre le texte */
+    line-height: 1.6; /* Augmente l'espacement entre les lignes */
+    text-align: justify; /* Justifie le texte pour un rendu plus propre */
+  }
+  
