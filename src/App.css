@@ -90,4 +90,22 @@ button {
     line-height: 1.6; /* Augmente l'espacement entre les lignes */
     text-align: justify; /* Justifie le texte pour un rendu plus propre */
   }
-  
+  a {
+    color: white; /* Garde le texte blanc */
+    text-decoration: none; /* Supprime le soulignement */
+  }
+
+
+  @media (max-width: 767px) {
+    img {
+      width: 70%;  /* L’image prendra toute la largeur du conteneur */
+      height: auto; /* Garde les proportions */
+    }
+   p {
+        width: 70%;
+        font-size: 1.3em;
+   }
+   button {
+    font-size: 1.3em;
+   }
+}

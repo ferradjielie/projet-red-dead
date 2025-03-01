@@ -26,7 +26,7 @@ export default [
                 },
                 name: "Pillards de Lemoyne" ,
                 resume: "  Des anciens confédérés nostalgiques de la guerre, maintenant devenus une milice anarchique. Leur idéal ? La violence et la domination sur Lemoyne ",
-                location: " Dans la région de Lemoyne, principalement autour de Rhodes et des marécages de Lagras"
+                location: "Localisation :  Dans la région de Lemoyne, principalement autour de Rhodes et des marécages de Lagras"
               },
               
       
@@ -50,7 +50,7 @@ export default [
                 },
                 name: "Bande de Del Lobo" ,
                 resume: " Des bandits mexicains redoutables, experts en embuscades dans les déserts brûlants. Leur territoire ? Chaque pouce de sable à l’horizon",
-                location: "Principalement dans New Austin, entre Tumbleweed et Armadillo"
+                location: " Localisation : Principalement dans New Austin, entre Tumbleweed et Armadillo"
       
           },
           {
