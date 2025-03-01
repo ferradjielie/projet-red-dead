@@ -1,5 +1,5 @@
 import valentine from './assets/valentine.jpg';
-import vanHorn from './assets/vanHorn.jpg';
+import vanHorn from './assets/VanHorn.jpg';
 import saintDenis from './assets/SaintDenis.jpg';
 import Rhodes from './assets/Rhodes.jpg';
 import StrawBery from './assets/StrawBerry.jpg';
