@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from './components/Header';
 import CharacterCard from './components/CharacterCard';
 import LegendaryAnimals from './components/AnimalsLegendary';
-import City from "./components/CIty";
+import City from "./components/Ville";
 import State from "./components/State";
 import CharacterDetails from "./components/CharacterDetails";
 
