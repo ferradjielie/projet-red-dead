@@ -2,7 +2,7 @@ import valentine from './assets/valentine.jpg';
 import vanHorn from './assets/VanHorn.jpg';
 import saintDenis from './assets/saintDenis.jpg';
 import Rhodes from './assets/Rhodes.jpg';
-import StrawBery from './assets/StrawBerry.jpg';
+import StrawBery from './assets/Strawberry.jpg';
 import Amarillo from './assets/Amarillo.jpg';
 import BlackWater from './assets/BlackWater.jpg';
 
