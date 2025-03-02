@@ -4,7 +4,7 @@ import saintDenis from './assets/saintDenis.jpg';
 import Rhodes from './assets/Rhodes.jpg';
 import StrawBery from './assets/Strawberry.jpg';
 import Amarillo from './assets/Amarillo.jpg';
-import BlackWater from './assets/blackWater.jpg';
+import BlackWater from './assets/blaaackWater.jpg';
 
 export default [
     {
