@@ -1,7 +1,7 @@
 import WestElizabeth from './assets/WestElizabeth.jpg';
-import newAustin from './assets/newAustin.jpg';
+import newAustin from './assets/NewAustin.jpg';
 import Lemoyne from './assets/Lemoyne.jpg';
-import newHanover from './assets/newHanover.jpg';
+import newHanover from './assets/NewHanover.jpg';
 import Ambarino from './assets/Ambarino.jpg';
 
 export default [
